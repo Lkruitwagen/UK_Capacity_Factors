@@ -15,8 +15,6 @@ def main(argv):
     response = urllib2.urlopen(url)
     cr = csv.reader(response)
 
-    print 'hellloooo'
-
     for row in cr:
         print row
 
